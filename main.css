@@ -1,0 +1,701 @@
+:root{
+    --col-1: calc( 100% / 12 * 1);
+    --col-2: calc( 100% / 12 * 2);
+    --col-3: calc( 100% / 12 * 3);
+    --col-4: calc( 100% / 12 * 4);
+    --col-5: calc( 100% / 12 * 5);
+    --col-6: calc( 100% / 12 * 6);
+    --col-7: calc( 100% / 12 * 7);
+    --col-8: calc( 100% / 12 * 8);
+    --col-9: calc( 100% / 12 * 9);
+    --col-10: calc( 100% / 12 * 10);
+    --col-11: calc( 100% / 12 * 11);
+    --col-12: calc( 100% / 12 * 12);
+}
+.col-6{
+    width: var(--col-6);
+    padding: 0 15px;
+}
+.col-8{
+    width: var(--col-8);
+    padding: 0 15px;
+}
+.col-12{
+    width: var(--col-12);
+    padding: 0 15px;
+}
+.col-3{
+    width: var(--col-3);
+    padding: 0 15px;
+}
+.col-4{
+    width: var(--col-4);
+    padding: 0 15px;
+}
+.col-5{
+    width: var(--col-5);
+    padding: 0 15px;
+}
+.col-2{
+    width: var(--col-2);
+    padding: 0 15px;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.wd{
+    width: 100%;
+}
+.ai{
+    align-items: center;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+/* =========================  header ===================== */
+
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+
+}
+.header1{
+    background-color: #ffcc00;
+}
+
+.header1 .col-12{
+    padding: 30px 0;
+}
+.header1 .logo{
+    margin-left: 15px;
+}
+
+.header1 li a{
+    color: #ba0000;
+    margin-right: 45px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.header1 li a:hover{
+    color: #8d0000;
+    font-weight: 700;
+
+}
+.header2{
+    background: url('./img/bg.jpg.jpg') no-repeat center center / cover;
+    
+}
+.header2 h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 185px;
+    line-height: 85px;
+    margin-bottom: 40px;
+}
+
+.header2 p::before{
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #ffcc00;
+    margin-bottom: 40px;
+}
+
+.header2 p{
+    color: #ffcc00;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 42px;
+}
+
+.header2 h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    word-spacing: 60px;
+    color: white;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.header2 .col-12 span{
+    color: #ffcc00;
+}
+.header2 .col-12 a{
+    color: white;
+    border: white solid 2px;
+    border-radius: 27px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    background-color: #ba0000a9;
+    transition: 1s;
+}
+.header2 .col-12 a:hover{
+    background-color: #ffcc00;
+    color: #ba0000;
+    box-shadow: 0 0 30px #ffcc00;
+    border-color: #ffcc00;
+}
+
+.header2 .col-12{
+    min-height: 800px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* ===================== info =================== */
+
+.info .row{
+    padding-bottom: 100px;
+}
+
+.info h2{
+    font-size: 50px;
+    color: #ba0000;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 115px;
+}
+
+.info img{
+    max-width: 100%;
+    
+}
+
+.info h5{
+    margin: 30px 0 20px;
+    font-size: 20px;
+    color: #ba0000;
+    text-transform: uppercase;
+
+}
+.info p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+.info a{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
+
+/* ============== section ======================== */
+
+
+section{
+    height: 700px;
+    background: url('./img/images/car.jpg');
+    background-size: cover;
+
+}
+section .content{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.582);  
+    padding-top: 150px;
+
+}
+section .content h3{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.section1 .car {
+    margin-top: -200px;
+    margin-bottom: 50px;
+}
+
+.section1 .car .minicar .shadow h4{
+    color: #ba0000;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 10px 5px;
+}
+.section1 .car .minicar .shadow ul li{
+    color: #777777;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================= bavariya ========================== */
+.bavariya form .dropdown{
+    position: relative;
+    margin-bottom: 20px;
+}
+.bavariya .row{
+    justify-content: center;
+}
+.bavariya form h3{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.bavariya form .dropdown .drop-menu{
+    border: solid #ffcc00 2px;
+    padding: 15px;
+    cursor: pointer;
+    color: #ba0000;
+    background-color: #ffcc00;
+   
+}
+
+.bavariya form .dropdown:hover .drop-list{
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    
+}
+.bavariya form{
+    background-color: #ba0000;
+    padding: 20px 40px 40px;
+    text-align: center;
+    margin-bottom: 100px;
+    width: 700px;
+}
+.bavariya form .dropdown .drop-list{
+    border: #ffcc00 2px solid;
+    padding: 23px 43px;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #ba0000;
+    display: block;
+    position: absolute;
+    margin-bottom: 10px;
+    transition: opacity 0.5ms linear, visibility 0.5ms linear;
+}
+
+.sell{
+    background-color: #ba0000;
+}
+.sell .row .inf h3{
+    color: white ;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.sell .row .inf p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 100px;
+}
+
+.sell .row .ilm {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sell .row .ilm span{
+    font-size: 16px;
+    color: white;
+    background-color: #a00000;
+    border-radius: 35px;
+    padding: 20px 30px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 500ms;
+
+}
+
+.sell .row .ilm span:hover{
+    background-color: #ffcc00;
+    color: #ba0000;
+
+}
+
+
+
+
+
+
+
+
+.campany-logo .rus{
+    width: 100%;
+    padding: 70px 0;
+}
+.campany-logo .rus .lil{
+    text-align: center;
+}
+.campany-logo .rus img{
+    border: 1px solid #eedbdb;
+    background-color: #f9f9f9;
+    padding: 40px 18px;
+    line-height: 55px;
+}
+.campany-logo .rus img:hover{
+    border: #ba0000 1px solid;
+
+}
+
+
+
+footer{
+    max-height: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .qwe img{
+    height: 100%;
+    width: 100%;
+}
+footer .qwe{
+
+    border-left: solid 27px #ba0000;
+}
+footer .qwe1 img{
+    height: 100%;
+    width: 100%;
+}
+footer .qwe1{
+    border-right: #ffcc00 27px solid;
+}
+
+
+footer .senter{
+    width: 100%;
+    justify-content: space-between;
+}
+footer .row .menu{
+    padding: 20px 0;
+}
+
+footer .senter .menu h4{
+    color: #ba0000;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+footer .senter .menu ul li a{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+footer .senter .menu ul li a:hover{
+    color: #ffcc00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================== media ======================= */
+
+@media( max-width:  1200px ){
+    .container{
+        max-width: 1140px;
+    }
+    .col-6{
+        width: var(--col-6);
+        padding: 0 15px;
+    }
+    .section1 .car{
+        justify-content: center;
+    }
+
+    .section1 .minicar{
+        text-align: center;
+    }
+    .section1 .car{
+        margin-top: 20px;
+    }
+    .section1 .car .minicar {
+        margin-top: 35px;
+    }
+    footer {
+        max-height: 280px;
+    }
+    footer .menu{
+        text-align: center;
+    }
+    footer .menu h4{
+        margin-top: 0;
+    }
+
+}
+
+
+
+@media(max-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+    .header2 .col-12{
+        text-align: center;
+        width: 100%;
+    }
+    .header2 p::before{
+        display: none;
+    }
+    .header1 li a{
+        margin-right: 25px;
+        word-spacing: 0px;
+    }
+    .coll-6{
+        width: var(--col-6);
+        padding: 0 15px;
+    } 
+    .col-12{
+        width: var(--col-12);
+        padding: 0 15px;
+    } 
+    .colm-12{
+        width: var(--col-12);
+        padding: 0 15px;
+    } 
+    .info .row a{
+        margin-bottom: 20px;
+    }
+    .info .row .pic{
+        text-align: center;
+    }
+    .info .container h2{
+        font-size: 40px;
+        margin: 90px 0 80px 0;
+        text-align: center;
+    }
+    section .content h3{
+        font-size: 40px;
+        margin: 0 40px;
+    }
+    section{
+        height: 550px;
+        background-position: center center;
+        background-size: cover;
+    }
+    footer .qwe{
+        display: none;
+    }
+    footer .qwe1{
+        display: none;
+    }
+    footer {
+        background-color: black;
+    }
+    .bavariya .lahm{
+        display: none;
+    }
+    .colm-12
+
+}
+
+
+
+@media(max-width: 768px){
+    .container{
+        max-width: 720px;
+}
+    .header2 .col-12{
+        min-height: 580px;
+    }
+    .header1 ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .header1 ul li{
+        text-align: center;
+    }
+    .header2 .col-12 h1{
+        font-size: 55px;
+        line-height: 55px;
+        margin-top: 110px;
+    }
+    .header2 .col-12 p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .header2 .col-12 h4{
+        font-size: 18px;
+        line-height: 20px;
+        word-spacing: 40px;
+    }
+    .header2 .col-12 a{
+        padding: 14px 28px;
+        font-size: 13px;
+    }
+    .coll-12{
+        width: var(--col-12);
+        padding: 0 15px;
+    }
+    .section1 .car .minicar .shadow{
+        padding-bottom: 30px;
+    }
+    .info .row .pic{
+        text-align: center;
+    }
+}
+
+
+
+
+@media(max-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+    .header2 .col-12{
+        min-height:520px;
+        margin-left: 3px;
+    }
+    .header2 .col-12 h1{
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 90px;
+    }
+    .header2 .col-12 p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .header2 .col-12 h4{
+        font-size: 15px;
+        line-height: 18px;
+        word-spacing: 28px;
+    }
+    .header2 .col-12 a{
+        padding: 10px 20px;
+
+    }
+    .header1 li a{
+        font-size: 12px;
+        margin-right: 0;
+    }
+    .col-12{
+        width: var(--col-12);
+    }
+    .info .row .pic{
+        text-align: center;
+    }
+    .section1 .car .minicar img{
+        max-width: 100%;
+    }
+    section .content h3{
+        font-size: 30px;
+        margin: 0 20px;
+    }
+    .info .row .pic a{
+        margin-bottom: 30px;
+        display: block;
+    }
+    .info .row{
+        padding-bottom: 60px;
+    }
+}
+
+
+
+@media(max-width: 360px){
+    .container{
+        max-width: none;
+    }
+    .header2 .col-12 h4{
+        display: flex;
+        flex-direction: column;
+    }
+    .header2 .col-12 a{
+        padding: 5px 8px;
+        display: block;
+        margin-left: 10px;
+    }
+   
+}
